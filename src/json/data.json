@@ -1,0 +1,199 @@
+{
+  "categories": [
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "Vitamin A",
+      "price": "300",
+      "imageUrl": "./media/main-menu1.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "Kyolic ",
+      "price": "299",
+      "imageUrl": "./media/main-menu2.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "Dhea Complex For Men",
+      "price": "199",
+      "imageUrl": "./media/main-menu3.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "Resveratrol",
+      "price": "499",
+      "imageUrl": "./media/main-menu4.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "B-Complex",
+      "price": "150",
+      "imageUrl": "./media/main-menu5.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "Gold C",
+      "price": "299",
+      "imageUrl": "./media/main-menu6.jpg"
+    },
+
+
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "Macadamia",
+      "price": "99",
+      "imageUrl": "./media/coffee.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "Dhea Complex For Men",
+      "price": "149",
+      "imageUrl": "./media/coffee2.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "Argan Oil",
+      "price": "56",
+      "imageUrl": "./media/coffee3.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "E Oil",
+      "price": "80",
+      "imageUrl": "./media/coffee4.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "Rose",
+      "price": "169",
+      "imageUrl": "./media/coffee5.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "Rose",
+      "price": "169",
+      "imageUrl": "./media/coffee6.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "Rose",
+      "price": "169",
+      "imageUrl": "./media/coffee7.jpg"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "Mel D'oranger",
+      "price": "399",
+      "imageUrl": "./media/dessert1.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "Manuka Honey Blend",
+      "price": "500",
+      "imageUrl": "./media/dessert2.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "Honey",
+      "price": "240",
+      "imageUrl": "./media/dessert3.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "Mel De Chardon",
+      "price": "400",
+      "imageUrl": "./media/dessert4.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "Mel De Chardon",
+      "price": "400",
+      "imageUrl": "./media/dessert5.jpg"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "GRANJA",
+      "price": "100",
+      "imageUrl": "./media/san-francisco-miel-de-flores-500-gr.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "MULTI",
+      "price": "155",
+      "imageUrl": "./media/multi.jpg"
+    },    
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "MIEL",
+      "price": "155",
+      "imageUrl": "./media/honey-from-taroudant.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "JASMINE",
+      "price": "159",
+      "imageUrl": "./media/01-1-scaled.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "STéVIA",
+      "price": "199",
+      "imageUrl": "./media/nutrisante-12-vitamines-7-oligo-elements-sans-sucres-24-comprimes-.jpg"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ],
+  "places": [
+    {
+      "_id": "abc123",
+      "imageUrl": "./media/place1.jpg"
+    },
+    {
+      "_id": "abc123",
+      "imageUrl": "./media/place2.jpg"
+    },
+    {
+      "_id": "abc123",
+      "imageUrl": "./media/place3.jpg"
+    }
+  ]
+}
