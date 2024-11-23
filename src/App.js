@@ -5,13 +5,9 @@ import Place from "./component/Place";
 import Blog from "./component/Blog";
 import Footer from "./component/Footer";
 
-
-
-
 function App() {
   return (
     <>
-
     <Header/>
     <main className="main">
       <Hero/>
@@ -19,7 +15,6 @@ function App() {
       <Place/>
       <Blog/>
       <Footer/>
-      
     </main>
     </>
   );

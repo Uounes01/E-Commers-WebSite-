@@ -1,6 +1,6 @@
 import data from '../json/data.json'
 import { useState } from 'react';
-import {Fade} from 'react-reveal'
+import {Fade} from 'react-awesome-reveal'
 import { FaWhatsapp } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 
@@ -11,7 +11,7 @@ const Product = () => {
 return(
     <section className="products section" id="products">
         <div className="products__container container">
-        <Fade left delay={400}>
+        <Fade direction='left' delay={400}>
            <h2 className="section__title">
             Find Natural Product and <br />
             choose what you love
@@ -19,7 +19,7 @@ return(
         </Fade>
         
           <ul className="products__filters">
-           <Fade left delay={800}>
+           <Fade direction='left' delay={800}>
              <li
               className={`products__item products__line ${filter === 'main-menu' && `active-product`}`}
               onClick={() => setFilter('main-menu')}
@@ -48,18 +48,16 @@ return(
             {data.categories.map((category,index)=>{
                 return(
                     category.category === filter &&  
-                  <Fade key={index} bottom delay={80}>
+                  <Fade key={index} direction="up" delay={80}>
                     <article className="products__card main-menu">
                      <div className="products__shape">
-                     <a href="ProductPageURL" >
+                      <img  
+                      
+                          src={category.imageUrl}
+                          alt="categ_img"
+                          className="products__img"
+                        />
                      <a href='https://wa.me/+212680833928'>
-                        <img  
-                       
-                           src={category.imageUrl}
-                            alt=""
-                           className="products__img"
-                          />
-                         </a> 
                          </a>
                       </div>
                       <div className="products__data">

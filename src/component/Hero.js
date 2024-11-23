@@ -1,4 +1,4 @@
-import {Fade} from 'react-reveal'
+import {Fade} from 'react-awesome-reveal'
 
 
 const   Hero= () => {
@@ -14,15 +14,17 @@ const   Hero= () => {
     return(
         <section className="hero section" id="home" style={{backgroundImage:`url(./media/bg-hero.jpg)`}}  >
       
-        <Fade top>
+        <Fade direction='up' duration="1000">
+        <div>
           <h1 className="hero__title">
           Start Your Day <br />
           Following Up On Natural Products <br />
           And Buying Them <br/>
           For Better Health.
           </h1>
-          <button className="hero__button" onClick={orderNow}>Shop Now</button>
+        </div>
         </Fade>
+          <button className="hero__button" onClick={orderNow}>Shop Now</button>
 
       </section>
     );

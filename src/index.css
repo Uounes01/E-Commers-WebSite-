@@ -252,7 +252,7 @@ button {
 
 .hero__title {
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   font-size: var(--h1-font-size);
   z-index: 99;
   margin-bottom: 2rem;
@@ -262,6 +262,7 @@ button {
   background-color: var(--first-color);
   padding: 1rem 1.75rem;
   border-radius: 0.25rem;
+  z-index: 100;
   color: #fff;
   text-transform: uppercase;
   transition: 0.3s;
