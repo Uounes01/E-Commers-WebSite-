@@ -1,22 +1,18 @@
-import Header from "./component/Header";
-import Hero from "./component/Hero";
-import Product from "./component/Product";
-import Place from "./component/Place";
-import Blog from "./component/Blog";
-import Footer from "./component/Footer";
+
+import Home from "./pages/Home";
+import ProductDetails from "./pages/ProductDetails";
+import NoPage from "./pages/NoPage";
+import { Routes, BrowserRouter, Route } from "react-router"
 
 function App() {
   return (
-    <>
-    <Header/>
-    <main className="main">
-      <Hero/>
-      <Product/>
-      <Place/>
-      <Blog/>
-      <Footer/>
-    </main>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/details" element={<ProductDetails />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
