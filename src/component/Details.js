@@ -15,7 +15,7 @@ const Details = () => {
                     </div>
                     <div class="product-price">
                         <span>148$</span>
-                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="/checkout" class="cart-btn">Add to cart</a>
                     </div>
                 </div>
             </div>
