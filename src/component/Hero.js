@@ -14,7 +14,7 @@ const   Hero= () => {
     return(
         <section className="hero section" id="home" style={{backgroundImage:`url(./media/bg-hero.jpg)`}}  >
       
-        <Fade direction='up' duration="1000">
+        <Fade direction='up' duration="1000" style={{color: "#fff"}} >
         <div>
           <h1 className="hero__title">
           Start Your Day <br />

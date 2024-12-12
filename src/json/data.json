@@ -17,7 +17,7 @@
     {
       "_id": "abc123",
       "category": "main-menu",
-      "title": "Dhea Complex For Men",
+      "title": "Dhea Complex",
       "price": "199",
       "imageUrl": "./media/main-menu3.jpg"
     },
@@ -54,7 +54,7 @@
     {
       "_id": "abc123",
       "category": "coffee",
-      "title": "Dhea Complex For Men",
+      "title": "Dhea Complex",
       "price": "149",
       "imageUrl": "./media/coffee2.jpg"
     },
